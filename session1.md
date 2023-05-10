@@ -60,3 +60,59 @@ Python拡張機能のページが開くので、「Install」ボタンをクリ�
 「Uninstall」ボタンが表示されるようになれば、インストール完了です。
 
 <img src="assets/VSCodeExtensionPythonInstalled.png">
+
+# はじめてのPythonプログラミング
+
+Pythonでプログラミングをする環境は整ったので、実際にプログラムを書いてみます。
+
+## フォルダ作成
+
+これから、Pythonもくもく会で作るプログラムを保存するフォルダを作ってください。場所や名前は何でもOKです。
+
+VSCode上部の「File」タブから、「Open Folder」をクリックして、作成したフォルダを選択して開きます。
+
+<img src="assets/VSCodeOpenFolder.png">
+
+## ファイル作成
+
+プログラムを書くファイルを作ります。
+
+VSCodeの左側にある`Explorer`ボタンをクリックして、エクスプローラータブを開きます。
+
+<img src="assets/VSCodeExplorer.png">
+
+エクスプローラータブ内にカーソルを持ってくると、ファイル作成ボタンとフォルダ作成ボタンが表示されます。
+
+ファイル作成ボタンをクリックして、`hello_world.py`という名前のファイルを作成してください。
+
+<img src="assets/VSCodeExplorerNew.png">
+
+`hello_world.py`をクリックして開き、以下のプログラムを入力して、`[Ctrl]+S`を押して保存します。
+
+```python
+print("Hello World!!")
+
+```
+
+ターミナルを開き、
+
+```
+$ python hello_world.py
+```
+
+を実行すると、
+
+```
+> Hello World!!
+```
+
+と出力されれば成功です！
+
+<img src="assets/VSCodeHelloWorld.png">
+
+# 今日学んだこと
+
+- VSCodeでのフォルダーの開き方
+- VSCodeでのフォルダ・ファイルの作り方
+- VSCodeでのファイルの編集
+- VSCodeでのターミナルの開き方

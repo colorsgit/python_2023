@@ -3,3 +3,6 @@ div.note {
     padding: 1em;
     margin: 1em 0;
 }
+img {
+    max-width: 100%;
+}
