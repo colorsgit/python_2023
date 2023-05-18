@@ -313,10 +313,10 @@ print(sum_math/3 - sum_jpn/3)
 
 ```python
 # ordとchrの使用例
-ord('a') = 97
-ord('c') = 99
-chr(97) = 'a'
-chr(99) = 'c'
+ord('a') # 97
+ord('c') # 99
+chr(97) # 'a'
+chr(99) # 'c'
 ```
 
 文字を３つずらすプログラム
