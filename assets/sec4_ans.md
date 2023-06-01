@@ -35,10 +35,12 @@ def log(f, args=[], kargs={}, exec_type="production"):
     if not is_prod:
         print("start")
 
-    f(*args, **kargs)
+    r = f(*args, **kargs)
 
     if not is_prod:
         print("end")
+       
+    return r
 ```
 
 ## 練習問題５の解答例
