@@ -189,16 +189,17 @@ insert into user (id, name, password)
 values (1, 'Tanaka', 'tanakapw'),
        (2, 'Sato','satopw'),
        (3, 'Suzuki', 'suzukipw');
-insert into post (id, message, auther)
+
+insert into post (id, message, author)
 values (1, 'I found an interesting object on morning', 3),
        (2, 'How is its shape like?', 1),
-       (3, 'It's like an egg, but made of metal.', 3),
+       (3, 'It''s like an egg, but made of metal.', 3),
        (4, 'Hey, it must be part of my artwork.', 2),
        (5, 'I dropped it somewhare last night.', 2);
 
 select name from user
 inner join on post
-on user.id=post.auther
+on user.id=post.author
 where post.id=4;
 ```
 -->
